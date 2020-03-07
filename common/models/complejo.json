@@ -1,0 +1,25 @@
+{
+  "name": "complejo",
+  "plural": "Complejos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "ubicacion": {
+      "type": "number"
+    },
+    "cantCanchas": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "apiProject": {
+    "host": "cluster0-ziypw.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://erick_25:Pokerick2@cluster0-ziypw.mongodb.net/proyecto?retryWrites=true&w=majority",
+    "database": "proyecto",
+    "password": "Pokerick2",
+    "name": "apiProject",
+    "user": "erick_25",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

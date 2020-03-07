@@ -1,0 +1,21 @@
+{
+  "name": "torneo",
+  "plural": "torneos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cantEquipos": {
+      "type": "number"
+    },
+    "premio": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
